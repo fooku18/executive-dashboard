@@ -1,0 +1,222 @@
+@@include("../partials/header.html")
+    <section class="statistic statistic2">
+        <!-- FIRST ROW -->
+        <div class="" style="background-color:#00000005">
+            <div class="row">
+                <!-- FIRST PILLAR -->
+                <div class="col-lg-3 col-sm-12">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- PORTAL LOGIN LABEL -->
+                            <div class="card statistic__item--grey">
+                                <div class="card-body">
+                                    <h3 class="pb-2 display-5">Portal Login</h3>
+                                </div>
+                            </div>
+                            <!-- PORTAL LOGIN LABEL -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <!-- PORTAL LOGINS VISITS SUMMARY NUMBER -->
+                            <div
+                                data-draw-graph
+                                data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"metrics/visits:::0","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_1","0"]}],"metricFilters":[{"id":"STATIC_ROW_COMPONENT_1","type":"segment","segmentId":"All_Visits"},{"id":"0","type":"segment","segmentId":"s1214_5d5a990ba969bf4c6c24241c"}]},"settings":{"countRepeatInstances":true,"dimensionSort":"asc"},"statistics":{"functions":["col-max","col-min"]}}'
+                                data-processor='AdobeSingle'
+                                data-chart='SummaryNumber'
+                            >
+                                <div class="">
+                                    <div class="statistic__item statistic__item--grey">
+                                        <h2 class="number" data-summarynumber=""></h2>
+                                        <span class="desc">Portal Login Leads</span>
+                                        <div class="icon">
+                                            <i class="zmdi zmdi-open-in-browser"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PORTAL LOGINS VISITS SUMMARY NUMBER -->
+                        </div>
+                        <div class="col-6">
+                                <!-- PORTAL LOGINS VISIT SHARE SUMMARY NUMBER -->
+                            <div
+                                data-draw-graph
+                                data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"cm1214_5d9afeb0ab8b1c09965a5c3e:::0","id":"cm1214_5d9afeb0ab8b1c09965a5c3e","filters":["STATIC_ROW_COMPONENT_1"]}],"metricFilters":[{"id":"STATIC_ROW_COMPONENT_1","type":"segment","segmentId":"All_Visits"}]},"settings":{"countRepeatInstances":true,"dimensionSort":"asc"},"statistics":{"functions":["col-max","col-min"]}}'
+                                data-processor='AdobeSingle'
+                                data-chart='SummaryNumber'
+                                data-options.summarynumber.formatter='percentage'
+                            >
+                                <div class="">
+                                    <div class="statistic__item statistic__item--grey">
+                                        <h2 class="number" data-summarynumber=""></h2>
+                                        <span class="desc">% of all Visits</span>
+                                        <div class="icon">
+                                            <i class="zmdi zmdi-open-in-browser"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PORTAL LOGINS VISIT SHARE SUMMARY NUMBER -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                                <!-- PORTAL LOGINS VISIT SHARE SUMMARY NUMBER -->
+                                <div
+                                data-draw-graph
+                                data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"1","id":"cm_average_time_on_site_defaultmetric","filters":["0"]}],"metricFilters":[{"id":"0","type":"segment","segmentId":"s1214_5d5a990ba969bf4c6c24241c"}]},"dimension":"variables/daterangeyear","settings":{"countRepeatInstances":true,"limit":400,"page":0,"dimensionSort":"asc"},"statistics":{"functions":["col-max","col-min"]}}'
+                                data-processor='AdobeSingle'
+                                data-chart='SummaryNumber'
+                                data-options.summarynumber.formatter='time'
+                            >
+                                <div class="">
+                                    <div class="statistic__item statistic__item--grey">
+                                        <h2 class="number" data-summarynumber=""></h2>
+                                        <span class="desc">Average Time on Site</span>
+                                        <div class="icon">
+                                            <i class="zmdi zmdi-open-in-browser"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PORTAL LOGINS VISIT SHARE SUMMARY NUMBER -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- COUNTRY DISTRIBUTION TOP 10 -->
+                            <div class="chart-percent-2">
+                                <h3 class="title-2 m-b-40">Country Distribution (Top 10)</h3>
+                                <div
+                                    data-draw-graph
+                                    data-provider.adobe.1='{"limit":1,"payload":{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"1","id":"metrics/visits","sort":"desc","filters":["0"]}],"metricFilters":[{"id":"0","type":"segment","segmentId":"s1214_5d5a990ba969bf4c6c24241c"}]},"dimension":"variables/evar36.1","settings":{"countRepeatInstances":true,"limit":10,"page":0},"statistics":{"functions":["col-max","col-min"]}}}'
+                                    data-processor='AdobeSingle'
+                                    data-chart='Chartjs'
+                                    data-options.chartjs.type='bar'
+                                    data-options.chartjs.general='{"legend":{"display":false},"aspectRatio":1}'
+                                ></div>
+                            </div>
+                            <!-- COUNTRY DISTRIBUTION TOP 10 -->
+                        </div>
+                    </div>
+                </div>
+                <!-- SECOND PILLAR -->
+                <div class="col-lg-3 col-sm-12">
+                    <div class="row">
+                        <!-- PORTAL LOGIN LEADS SUMMARY NUMBER -->
+                        <div class="col-12">
+                            <div
+                                data-draw-graph
+                                data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"metrics/event79:::0","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_1","0"]}],"metricFilters":[{"id":"STATIC_ROW_COMPONENT_1","type":"segment","segmentId":"All_Visits"},{"id":"0","type":"segment","segmentId":"s1214_5d53ffa10292d83c438d180c"}]},"settings":{"countRepeatInstances":true},"statistics":{"functions":["col-max","col-min"]}}'
+                                data-processor='AdobeSingle'
+                                data-chart='SummaryNumber'
+                            >
+                                <div class="">
+                                    <div class="statistic__item statistic__item--grey">
+                                        <h2 class="number" data-summarynumber=""></h2>
+                                        <span class="desc">Portal Login Leads</span>
+                                        <div class="icon">
+                                            <i class="zmdi zmdi-open-in-browser"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PORTAL LOGIN LEADS SUMMARY NUMBER -->
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="chart-percent-2">
+                                <h3 class="title-2 m-b-40">Portal Login Leads by BU</h3>
+                                <div
+                                    data-draw-graph
+                                    data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"metrics/event79:::0","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_1"]},{"columnId":"metrics/event79:::2","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_3"]},{"columnId":"metrics/event79:::4","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_5"]},{"columnId":"metrics/event79:::6","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_7"]},{"columnId":"metrics/event79:::8","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_9"]},{"columnId":"metrics/event79:::10","id":"metrics/event79","filters":["STATIC_ROW_COMPONENT_11"]}],"metricFilters":[{"id":"STATIC_ROW_COMPONENT_1","type":"segment","segmentId":"s1214_5d9b0fdf8907f83d6305d313"},{"id":"STATIC_ROW_COMPONENT_3","type":"segment","segmentId":"s1214_5d9b0f0e84a50171b1894376"},{"id":"STATIC_ROW_COMPONENT_5","type":"segment","segmentId":"s1214_5d9b103641bd550667a572bf"},{"id":"STATIC_ROW_COMPONENT_7","type":"segment","segmentId":"s1214_5d9b106f7e678d6bfb39bd19"},{"id":"STATIC_ROW_COMPONENT_9","type":"segment","segmentId":"s1214_5d9b10cc41bd550667a572c2"},{"id":"STATIC_ROW_COMPONENT_11","type":"segment","segmentId":"s1214_5d9b100a40ef826d4456f7d7"}]},"settings":{"countRepeatInstances":true,"dimensionSort":"asc"},"statistics":{"functions":["col-max","col-min"]}}'
+                                    data-processor='AdobeSingle'
+                                    data-chart='Chartjs'
+                                    data-options.chartjs.type='bar'
+                                    data-options.chartjs.general='{"legend":{"position":"bottom","labels":{"fontSize":8}},"aspectRatio":1,"scales":{"xAxes":[{"ticks":{"display":false}}]}}'
+                                >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="chart-percent-2">
+                                <h3 class="title-2 m-b-40">Link Clicks by Device Type</h3>
+                                <div
+                                    data-draw-graph
+                                    data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"1","id":"metrics/event79","sort":"desc","filters":["0"]}],"metricFilters":[{"id":"0","type":"segment","segmentId":"s1214_5d53ffa10292d83c438d180c"}]},"dimension":"variables/mobiledevicetype","settings":{"countRepeatInstances":true,"limit":50,"page":0},"statistics":{"functions":["col-max","col-min"]}}'
+                                    data-processor='AdobeSingle'
+                                    data-chart='Chartjs'
+                                    data-options.chartjs.type='pie'
+                                    data-options.chartjs.general='{"legend":{"position":"bottom","labels":{"fontSize":8}},"aspectRatio":1,"scales":{"xAxes":[{"ticks":{"display":false}}]}}'
+                                    data-options.chartjs.labels
+                                    data-options.chartjs.percentage
+                                >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- THIRD PILLAR -->
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row">
+                        <!-- PORTAL LOGINS LEADS TREND -->
+                        <div class="col-12">
+                            <div class="chart-percent-2">
+                                <h3 class="title-2 m-b-40">Portal Login Leads Trend</h3>
+                                <div
+                                    data-draw-graph
+                                    data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"1","id":"metrics/event79","filters":["0"]}],"metricFilters":[{"id":"0","type":"segment","segmentId":"s1214_5d53ffa10292d83c438d180c"}]},"dimension":"variables/daterangeday","settings":{"countRepeatInstances":true,"limit":400,"page":0,"dimensionSort":"asc"},"statistics":{"functions":["col-max","col-min"]}}'
+                                    data-processor='AdobeSingle'
+                                    data-chart='Chartjs'
+                                >
+                                </div>
+                            </div>
+                        </div>
+                        <!-- PORTAL LOGINS LEADS TREND -->
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="chart-percent-2">
+                                <h3 class="title-2 m-b-40">Portal Login Page Funnel (just in VoC Countries)</h3>
+                                <div
+                                    data-draw-graph
+                                    data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"metrics/visits:::0","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_1","0","1","2"]},{"columnId":"metrics/visits:::2","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_3","3","4","5"]},{"columnId":"metrics/visits:::4","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_5","6","7","8"]}],"metricFilters":[{"id":"STATIC_ROW_COMPONENT_1","type":"segment","segmentId":"All_Visits"},{"id":"0","type":"breakdown","dimension":"variables/evar74.1","itemId":"2334571830"},{"id":"1","type":"segment","segmentId":"s1214_5d9b2259e9eaeb4ee1c4e414"},{"id":"2","type":"segment","segmentId":"s1214_5d5a6d42b9c91e1ce6b475d3"},{"id":"STATIC_ROW_COMPONENT_3","type":"segment","segmentId":"All_Visits"},{"id":"3","type":"breakdown","dimension":"variables/page","itemId":"3428183614"},{"id":"4","type":"segment","segmentId":"s1214_5d9b2259e9eaeb4ee1c4e414"},{"id":"5","type":"segment","segmentId":"s1214_5d5a6d42b9c91e1ce6b475d3"},{"id":"STATIC_ROW_COMPONENT_5","type":"segment","segmentId":"All_Visits"},{"id":"6","type":"segment","segmentId":"s1214_5d1a035a2c866007484dcdef"},{"id":"7","type":"segment","segmentId":"s1214_5d9b2259e9eaeb4ee1c4e414"},{"id":"8","type":"segment","segmentId":"s1214_5d5a6d42b9c91e1ce6b475d3"}]},"settings":{"countRepeatInstances":true},"statistics":{"functions":["col-max","col-min"]}}'
+                                    data-processor='AdobeSingle'
+                                    data-chart='FunnelGraphJsChart'
+                                    data-options.funnelgraphjs.direction="vertical"
+                                    data-options.funnelgraphjs.data='{"labels":["Home","PL Page","Logins"],"subLabels":["Sessions"]}'
+                                >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="chart-percent-2">
+                                <h3 class="title-2 m-b-40">Portal Login Dropdown Funnel (just in VoC Countries)</h3>
+                                <div
+                                    data-draw-graph
+                                    data-provider.adobe.1='{"rsid":"dhlglobalrolloutprod","globalFilters":[{"type":"dateRange","dateRange":"2019-09-01T00:00:00.000/2019-10-01T00:00:00.000"}],"metricContainer":{"metrics":[{"columnId":"metrics/visits:::0","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_1","0","1","2"]},{"columnId":"metrics/visits:::2","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_3","3","4","5"]},{"columnId":"metrics/visits:::4","id":"metrics/visits","filters":["STATIC_ROW_COMPONENT_5","6","7","8"]}],"metricFilters":[{"id":"STATIC_ROW_COMPONENT_1","type":"segment","segmentId":"All_Visits"},{"id":"0","type":"breakdown","dimension":"variables/evar74.1","itemId":"2334571830"},{"id":"1","type":"segment","segmentId":"s1214_5d9b2259e9eaeb4ee1c4e414"},{"id":"2","type":"segment","segmentId":"s1214_5d5a6d42b9c91e1ce6b475d3"},{"id":"STATIC_ROW_COMPONENT_3","type":"segment","segmentId":"All_Visits"},{"id":"3","type":"segment","segmentId":"s1214_5d9b230ce9eaeb4ee1c4e418"},{"id":"4","type":"segment","segmentId":"s1214_5d9b2259e9eaeb4ee1c4e414"},{"id":"5","type":"segment","segmentId":"s1214_5d5a6d42b9c91e1ce6b475d3"},{"id":"STATIC_ROW_COMPONENT_5","type":"segment","segmentId":"All_Visits"},{"id":"6","type":"segment","segmentId":"s1214_5d9b239d34ab6a18c7f66deb"},{"id":"7","type":"segment","segmentId":"s1214_5d9b2259e9eaeb4ee1c4e414"},{"id":"8","type":"segment","segmentId":"s1214_5d5a6d42b9c91e1ce6b475d3"}]},"settings":{"countRepeatInstances":true},"statistics":{"functions":["col-max","col-min"]}}'
+                                    data-processor='AdobeSingle'
+                                    data-chart='FunnelGraphJsChart'
+                                    data-options.funnelgraphjs.direction="vertical"
+                                    data-options.funnelgraphjs.data='{"labels":["Home","Dropdown","Logins"],"subLabels":["Sessions"]}'
+                                >
+                                </div>
+                            </div>
+                        </div>                                
+                    </div>
+                </div>
+                <div class="row">
+                    <div
+                        data-draw-graph
+                        data-provider.usabilla.1='{}'
+                        data-processor='UsabillaSingle'
+                        data-chart='Comment'
+                    ></div>
+                </div>
+            </div>
+        </div>
+    </section>
+@@include("../partials/footer.html")
